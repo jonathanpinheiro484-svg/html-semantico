@@ -1,0 +1,118 @@
+/* Estilização Geral */
+boody{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /* aumenta o espaçamento entre linhas */
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0; /* remove a margem padrão */
+    padding: 0;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #487aa1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.2em;
+}
+header nav ul{
+    list-style: none; /* remove o marcadores da lista */
+    padding: 0;
+}
+header nav ul li{
+    display: inline; /* coloca os itens na mesma linha */
+    margin: 0 15px;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none; /* remove o sublinhado */
+    font-weight: bold; /*a espesura da fonte em negrito */
+    cursor: pointer; /* coloca uma mãosinha no lugar da seta */
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 15px;
+    color:#384252;
+}
+
+/* area de conteúdo principal */
+main{
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Seções */
+section{
+    margin-bottom: 20px; /* Espaço abaixo do elemento */
+}
+
+section h2,
+section h3{
+    color: #0056b3;
+}
+
+/* Artigos */
+article{
+    background-color: #e9f7ff;
+    padding: 15px;
+    border-radius: 5px; /* Arredonda os cantos */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1); /* Adiciona uma sombra */
+}
+article h2{
+    color: #004080;
+}
+/* Barra lateral */
+aside{
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-left: 5px solid #cbe4ea;/* Cria uma borda apenas na esquerda */
+    margin-bottom: 20px;
+}
+/* Imagem e legenda */
+figure{
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column;/* Organiza os itens em colunas */
+    align-items: center; /* Centraliza os itens */
+    margin: 20px o;
+}
+
+details{
+    background-color: #e9f7ff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+summary{
+    font-weight: bold;
+    color: #0056b3;
+}
+/* Rodapé */
+footer{
+    background-color: #487aa1;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+footer p {
+    margin: 0;
+}
+footer address {
+    font-style: normal;/* Remove o itálico */
+}
+footer a{
+    color: #000039;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
